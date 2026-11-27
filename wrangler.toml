@@ -1,0 +1,13 @@
+name = "amiguito-peludito"
+compatibility_date = "2026-11-26"
+pages_build_output_dir = "./public"
+
+# Para guardar solicitudes en Cloudflare D1:
+# 1. Crea la base de datos: npx wrangler d1 create amiguito-peludito-db
+# 2. Copia el database_id que te entrega Cloudflare en el bloque de abajo.
+# 3. Quita los comentarios de [[d1_databases]] y sus propiedades.
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "amiguito-peludito-db"
+# database_id = "PEGA_AQUI_TU_DATABASE_ID"

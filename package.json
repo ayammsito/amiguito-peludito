@@ -1,0 +1,10 @@
+{
+  "name": "amiguito-peludito",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma web escolar de servicios para mascotas",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  }
+}
