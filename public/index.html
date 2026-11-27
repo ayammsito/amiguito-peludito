@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8f7ef">
+  <meta name="description" content="Amiguito Peludito: paseos, cuidado, baño y guardería para perros y gatos.">
+  <title>Amiguito Peludito | Cuidado con amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/assets/paw.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="announcement"><span>🐾</span> Un poquito de cuidado hace una gran diferencia <span class="announcement-dot">•</span> ¡Conócenos!</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Amiguito Peludito, inicio">
+      <span class="brand-mark"><img src="/assets/paw.svg" alt=""></span>
+      <span class="brand-name">amiguito <b>peludito</b><small>CUIDAMOS COMO EN CASA</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#servicios">Servicios</a><a href="#precios">Precios</a><a href="#opiniones">Opiniones</a>
+      <a class="nav-cta" href="#reservar">Reservar ahora <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-paw">✿</span> CUIDADO CON MUCHO AMOR</div>
+        <h1>Su felicidad,<br>es nuestra <span>huella.</span></h1>
+        <p class="hero-lead">Tu compañero peludo merece lo mejor. Encuentra paseos, cuidados y mimos de confianza para que siempre esté feliz.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#servicios">Explorar servicios <span>→</span></a><a class="btn btn-soft" href="#reservar">Quiero reservar</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>🐶</span><span>🐱</span><span>🐕</span></div><div><strong>Mucho amor en cada visita</strong><small>Atención pensada para cada mascota</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-blob"></div>
+        <img class="hero-photo" src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=85" alt="Perro feliz disfrutando al aire libre">
+        <div class="floating-note note-top"><span class="note-icon">♡</span><span><b>Colitas felices</b><small>Todos los días</small></span></div>
+        <div class="floating-note note-bottom"><span class="sun-icon">☀</span><span><b>Amor y cuidado</b><small>En cada aventura</small></span></div>
+        <span class="decor decor-star">✳</span><span class="decor decor-paw">🐾</span>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>♡</span><b>Trato cariñoso</b><small>Primero su bienestar</small></div>
+      <div><span>⌂</span><b>Atención flexible</b><small>En casa o fuera de ella</small></div>
+      <div><span>✦</span><b>Personas responsables</b><small>Cuidado con dedicación</small></div>
+      <div><span>☻</span><b>Colitas contentas</b><small>Experiencias positivas</small></div>
+    </section>
+
+    <section class="section-wrap services-section" id="servicios">
+      <div class="section-heading"><div><div class="eyebrow">LO QUE HACEMOS</div><h2>Pequeños cuidados,<br><span>grandes alegrías.</span></h2></div><p>Todo lo que tu mejor amigo necesita para sentirse acompañado, activo y lleno de energía.</p></div>
+      <div class="service-grid">
+        <article class="service-card service-mint"><div class="service-image"><img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=700&q=80" alt="Perro disfrutando de un paseo"></div><div class="service-content"><span class="service-number">01 / AVENTURA</span><h3>Paseos de perros</h3><p>Un paseo divertido, activo y seguro para mover las patitas y explorar.</p><a href="#reservar" data-service="Paseo de perros">Reservar paseo <b>↗</b></a></div></article>
+        <article class="service-card service-peach"><div class="service-image"><img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=700&q=80" alt="Gato descansando cómodamente"></div><div class="service-content"><span class="service-number">02 / EN CASA</span><h3>Cuidado a domicilio</h3><p>Compañía, atención y cariño para tu mascota en su lugar favorito.</p><a href="#reservar" data-service="Cuidado a domicilio">Solicitar cuidado <b>↗</b></a></div></article>
+        <article class="service-card service-yellow"><div class="service-image"><img src="https://images.unsplash.com/photo-1582798358481-d199fb7347bb?auto=format&fit=crop&w=700&q=80" alt="Perro recibiendo cuidados de higiene"></div><div class="service-content"><span class="service-number">03 / BIENESTAR</span><h3>Baño e higiene</h3><p>Una rutina de limpieza delicada para que luzca y se sienta genial.</p><a href="#reservar" data-service="Baño e higiene">Agendar baño <b>↗</b></a></div></article>
+        <article class="service-card service-lilac"><div class="service-image"><img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=700&q=80" alt="Perro jugando en un espacio verde"></div><div class="service-content"><span class="service-number">04 / DIVERSIÓN</span><h3>Guardería peludita</h3><p>Un espacio de compañía y juego mientras tú atiendes tus actividades.</p><a href="#reservar" data-service="Guardería para mascotas">Ver disponibilidad <b>↗</b></a></div></article>
+      </div>
+      <div class="extra-service"><span class="extra-icon">🥣</span><div><b>Alimentación y acompañamiento</b><p>Respetamos sus horarios de comida y sus rutinas de compañía.</p></div><a href="#reservar" data-service="Alimentación y acompañamiento">Me interesa <b>→</b></a></div>
+    </section>
+
+    <section class="care-banner">
+      <div class="care-inner"><div class="care-photo"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=85" alt="Perro mirando con ternura"></div><div class="care-copy"><div class="eyebrow">MÁS QUE UN SERVICIO</div><h2>Como en casa,<br><span>con todo el corazón.</span></h2><p>Sabemos que tu mascota es parte de tu familia. Por eso, cada detalle importa: sus horarios, sus juegos y esa forma especial que tiene de pedir cariño.</p><a class="btn btn-white" href="#reservar">Hablemos de tu mascota <span>→</span></a></div><span class="banner-paw">🐾</span></div>
+    </section>
+
+    
+
+    <section class="pricing-section" id="precios"><div class="section-wrap">
+      <div class="center-heading"><div class="eyebrow">PRECIOS REFERENCIALES</div><h2>Cuidar bien también<br><span>puede ser sencillo.</span></h2><p>Elige una opción y conversemos sobre lo que necesita tu peludito.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><span class="price-icon">🐕</span><h3>Paseo feliz</h3><p class="price">S/ 20 <small>/ 30 min</small></p><ul><li>✓ Paseo individual</li><li>✓ Agua y descansos</li><li>✓ Aviso al finalizar</li></ul><a href="#reservar" data-service="Paseo de perros" class="btn btn-outline">Elegir servicio</a></article>
+        <article class="price-card featured"><span class="popular">MÁS ELEGIDO</span><span class="price-icon">🏡</span><h3>Visita en casa</h3><p class="price">S/ 30 <small>/ visita</small></p><ul><li>✓ Compañía y supervisión</li><li>✓ Alimentación según indicación</li><li>✓ Actualización para la familia</li></ul><a href="#reservar" data-service="Cuidado a domicilio" class="btn btn-primary">Elegir servicio</a></article>
+        <article class="price-card"><span class="price-icon">🫧</span><h3>Baño y mimos</h3><p class="price">S/ 35 <small>/ sesión</small></p><ul><li>✓ Baño básico</li><li>✓ Secado y cepillado</li><li>✓ Según tamaño y pelaje</li></ul><a href="#reservar" data-service="Baño e higiene" class="btn btn-outline">Elegir servicio</a></article>
+      </div><p class="price-note">* Precios de ejemplo para el proyecto escolar. El costo real puede variar según ubicación, tamaño, duración y necesidades de la mascota.</p>
+    </div></section>
+
+    <section class="section-wrap booking-section" id="reservar">
+      <div class="booking-intro"><div class="eyebrow">¡EMPECEMOS!</div><h2>Una patita más<br><span>feliz comienza aquí.</span></h2><p>Cuéntanos un poquito sobre tu mascota y el servicio que te gustaría reservar. Nos pondremos en contacto para confirmar los detalles.</p><div class="booking-promise"><span>💚</span><div><b>Tu mascota es única.</b><small>Adaptamos la atención a sus necesidades.</small></div></div><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=650&q=80" alt="Gato curioso" class="booking-cat"></div>
+      <form class="booking-form" id="bookingForm" name="booking" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+        <div class="form-heading"><h3>Solicita una reservación</h3><p>Completa los datos para comenzar.</p></div>
+        <input type="hidden" name="form-name" value="booking">
+        <label class="visually-hidden" aria-hidden="true">No completar este campo<input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        <div class="form-row"><label>Tu nombre<input name="name" required minlength="2" placeholder="Ej. Alex García"></label><label>WhatsApp<input name="phone" required inputmode="tel" pattern="[0-9+() -]{7,20}" placeholder="Ej. 987 654 321"></label></div>
+        <div class="form-row"><label>Nombre de tu mascota<input name="petName" required placeholder="¿Cómo se llama?"></label><label>Tipo de mascota<select name="petType" required><option value="">Selecciona</option><option>Perro</option><option>Gato</option><option>Otro</option></select></label></div>
+        <label>Servicio que necesitas<select name="service" id="serviceSelect" required><option value="">Elige un servicio</option><option>Paseo de perros</option><option>Cuidado a domicilio</option><option>Alimentación y acompañamiento</option><option>Baño e higiene</option><option>Guardería para mascotas</option></select></label>
+        <div class="form-row"><label>Fecha preferida<input type="date" name="date" id="bookingDate" required></label><label>Horario preferido<select name="time" required><option value="">Selecciona</option><option>Mañana (8 a. m. – 12 p. m.)</option><option>Tarde (12 p. m. – 5 p. m.)</option><option>Noche (5 p. m. – 8 p. m.)</option></select></label></div>
+        <label>Cuéntanos algo más <textarea name="notes" rows="3" placeholder="Edad, tamaño, cuidados especiales..."></textarea></label>
+        <button class="btn btn-primary submit-btn" type="submit">Enviar solicitud <span>→</span></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite">Al enviar, aceptas que te contactemos para coordinar la solicitud.</p>
+      </form>
+    </section>
+
+    <section class="reviews-section" id="opiniones"><div class="section-wrap"><div class="center-heading"><div class="eyebrow">PATITAS QUE NOS RECOMIENDAN</div><h2>Palabras que nos<br><span>llenan el corazón.</span></h2></div><div class="review-grid">
+      <article class="review-card"><div class="stars">★★★★★</div><p>“Me encanta la idea de tener a alguien que acompañe a mi perrito cuando estoy ocupada. ¡El cariño hace la diferencia!”</p><div class="review-person"><span class="review-avatar">M</span><div><b>María G.</b><small>Familia perruna</small></div></div></article>
+      <article class="review-card"><div class="stars">★★★★★</div><p>“Mi gatita necesita tranquilidad y una rutina conocida. La atención en casa es una opción que me da confianza.”</p><div class="review-person"><span class="review-avatar avatar-yellow">L</span><div><b>Lucía R.</b><small>Familia gatuna</small></div></div></article>
+      <article class="review-card"><div class="stars">★★★★★</div><p>“Los paseos y los juegos son importantes para su bienestar. Me gusta que cada mascota tenga una atención especial.”</p><div class="review-person"><span class="review-avatar avatar-peach">D</span><div><b>Diego P.</b><small>Familia peludita</small></div></div></article>
+    </div><p class="disclaimer">Opiniones de muestra creadas para la presentación del proyecto; no corresponden a testimonios verificados.</p></div></section>
+
+    <section class="faq-section section-wrap" id="preguntas"><div><div class="eyebrow">¿TIENES DUDAS?</div><h2>Preguntas con<br><span>respuestas peluditas.</span></h2><p>Te ayudamos a resolver lo más importante antes de reservar.</p><a class="text-link" href="https://wa.me/51900000000?text=Hola%2C%20tengo%20una%20consulta%20sobre%20Amiguito%20Peludito" target="_blank" rel="noopener">Escríbenos por WhatsApp ↗</a></div><div class="faq-list">
+      <details><summary>¿Atienden perros y gatos? <span>＋</span></summary><p>Sí, la plataforma está pensada principalmente para perros y gatos. Cuéntanos sobre tu mascota para revisar qué servicio se adapta mejor.</p></details>
+      <details><summary>¿Los precios son fijos? <span>＋</span></summary><p>Los precios de esta página son referenciales. El costo final puede variar según el tamaño, ubicación, duración y necesidades de cada mascota.</p></details>
+      <details><summary>¿Cómo confirmo mi reservación? <span>＋</span></summary><p>Envía el formulario y nos pondremos en contacto contigo para confirmar disponibilidad, dirección y detalles del servicio.</p></details>
+      <details><summary>¿Puedo explicar cuidados especiales? <span>＋</span></summary><p>¡Claro! Usa el campo de comentarios para indicar horarios de comida, preferencias, alergias conocidas u otras instrucciones importantes.</p></details>
+    </div></section>
+
+    <section class="final-cta"><div><span class="cta-paw">🐾</span><h2>¡Dale a tu peludito<br>un día lleno de alegría!</h2><p>Estamos listos para conocer a tu mejor amigo.</p><a href="#reservar" class="btn btn-white">Reservar un servicio <span>→</span></a></div></section>
+  </main>
+
+  <footer class="site-footer" id="contacto"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark"><img src="/assets/paw.svg" alt=""></span><span class="brand-name">amiguito <b>peludito</b><small>CUIDAMOS COMO EN CASA</small></span></a><p>Pequeños cuidados que hacen colitas felices. Porque ellos también son familia.</p></div><div><h4>Explora</h4><a href="#servicios">Servicios</a><a href="#precios">Precios</a><a href="#preguntas">Preguntas frecuentes</a></div><div><h4>Contáctanos</h4><a href="https://wa.me/51900000000?text=Hola%2C%20Amiguito%20Peludito" target="_blank" rel="noopener">WhatsApp: +51 900 000 000</a><a href="mailto:hola@amiguitopeludito.example">hola@amiguitopeludito.example</a><span>Perú 🇵🇪</span></div><div class="footer-social"><h4>Síguenos</h4><p>Más mimos, más juegos y más huellitas.</p><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://facebook.com/" target="_blank" rel="noopener">Facebook ↗</a></div></div><div class="footer-bottom"><span>© 2026 Amiguito Peludito. Proyecto escolar.</span><span>Hecho con <b>♥</b> y muchas huellitas.</span></div></footer>
+
+  <button class="chat-launcher" id="chatLauncher" aria-label="Abrir asistente virtual"><span class="chat-launcher-icon">✦</span><span>¿Necesitas ayuda?</span><b>🐾</b></button>
+  <section class="chat-panel" id="chatPanel" aria-label="Asistente virtual" hidden>
+    <div class="chat-head"><div class="chat-bot-avatar">🐾</div><div><b>Peludito IA</b><small><i></i> Asistente virtual</small></div><button id="chatClose" aria-label="Cerrar chat">×</button></div>
+    <div class="chat-messages" id="chatMessages"><div class="chat-bubble bot">¡Hola! 🐾 Soy Peludito, tu asistente virtual. Puedo ayudarte con servicios, precios y reservaciones. ¿Qué te gustaría saber?</div><div class="quick-questions"><button data-question="¿Qué servicios ofrecen?">Ver servicios</button><button data-question="¿Cuáles son sus precios?">Ver precios</button><button data-question="Quiero reservar">Reservar</button></div></div>
+    <form class="chat-input-row" id="chatForm"><input id="chatInput" placeholder="Escribe tu consulta..." maxlength="1000" autocomplete="off" aria-label="Escribe tu consulta"><button aria-label="Enviar mensaje" type="submit">➤</button></form>
+    <div class="chat-foot">Respuestas con IA · Si necesitas ayuda, te conectamos por WhatsApp</div>
+  </section>
+  <script src="/app.js" defer></script>
+</body>
+</html>
