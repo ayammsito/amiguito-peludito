@@ -1,4 +1,0 @@
-# Copia este archivo como .dev.vars para probar localmente.
-# Nunca publiques ni compartas la clave real.
-OPENAI_API_KEY=pon_aqui_tu_clave_secreta
-OPENAI_MODEL=gpt-4o-mini
